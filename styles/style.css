@@ -131,9 +131,10 @@ body {
   text-decoration: none;
   color: inherit;
   /* text-transform: uppercase; */
-  font-size: 2.2rem;
+  font-size: 2.4rem;
   letter-spacing: 0.2rem;
-  font-weight: 500;
+  font-weight: 400;
+  /* font-style: italic; */
 
   transition: all 0.3s;
 }
@@ -244,7 +245,8 @@ body {
   justify-content: center;
   align-items: center;
 
-  margin-bottom: 9.6rem;
+  margin-bottom: 4.8rem;
+  background-attachment: fixed;
 }
 
 .quote-text {
@@ -296,12 +298,15 @@ body {
 .featured-title {
   text-align: center;
   margin-bottom: 9.6rem;
+  font-style: italic;
+  letter-spacing: 0.4rem;
 }
 
 .featured-gallery {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   row-gap: 6.2rem;
+  margin-bottom: 4.8rem;
 }
 
 .featured-card {
@@ -337,4 +342,12 @@ body {
 .featured-name {
   font-size: 1.8rem;
   font-style: italic;
+}
+
+.featured-btn {
+  text-align: center;
+}
+
+.featured-btn .btn {
+  font-size: 1.8rem;
 }
