@@ -31,10 +31,10 @@ body {
 
 /* Reusable component */
 
-/* .container {
-  max-width: 140rem;
+.container {
+  max-width: 130rem;
   margin: 0 auto;
-} */
+}
 
 .heading-primary {
   font-size: 5.2rem;
@@ -76,12 +76,27 @@ body {
   color: #f7f7f2;
 }
 
+.link:link,
+.link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #343a40;
+
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #6f6f6f;
+}
+
 /* HEADER */
 .header {
   height: 100vh;
   background-image: url(/content/header-img.jpg);
   background-size: cover;
   background-position: center center;
+  position: relative;
 }
 
 .nav-container {
@@ -151,14 +166,17 @@ body {
 }
 
 .header-text {
-  text-align: center;
-  margin-top: 100rem;
+  display: block;
   font-size: 2rem;
   font-weight: 400;
   font-style: italic;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
   color: rgb(247, 247, 242);
+
+  position: absolute;
+  bottom: 10%;
+  left: 24%;
 }
 
 /*************************************/
@@ -225,6 +243,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  margin-bottom: 9.6rem;
 }
 
 .quote-text {
@@ -247,6 +267,8 @@ body {
   gap: 9.6rem;
   justify-items: center;
   align-items: center;
+
+  margin-bottom: 4.8rem;
 }
 
 .testimonial-text {
@@ -266,3 +288,53 @@ body {
 /*************************************/
 /*SECTION FEATURED STORIES */
 /*************************************/
+
+.section-featured {
+  margin-bottom: 9.6rem;
+}
+
+.featured-title {
+  text-align: center;
+  margin-bottom: 9.6rem;
+}
+
+.featured-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 6.2rem;
+}
+
+.featured-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.featured-img {
+  width: 30rem;
+  height: 30rem;
+  transition: all 0.4s;
+  margin-bottom: 2rem;
+}
+
+.featured-img:hover {
+  transform: scale(1.1);
+}
+
+.featured-tag {
+  display: block;
+  background-color: #eee;
+  padding: 0.1rem 1.6rem;
+  border-radius: 5px;
+
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+
+  margin-bottom: 0.4rem;
+}
+
+.featured-name {
+  font-size: 1.8rem;
+  font-style: italic;
+}
