@@ -32,7 +32,7 @@ body {
 /* Reusable component */
 
 .container {
-  max-width: 130rem;
+  max-width: 160rem;
   margin: 0 auto;
 }
 
@@ -426,7 +426,7 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  padding: 2.8rem 3.2rem;
+  padding: 2.8rem 9.6rem;
 }
 .footer-logo {
   height: 6rem;
