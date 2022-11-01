@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
   font-size: 1.6rem;
   line-height: 1.6;
   color: #333;
@@ -197,7 +197,7 @@ body {
 .intro {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* gap: 9.6rem; */
+  gap: 9.6rem;
   align-items: center;
   justify-items: end;
 }
@@ -236,14 +236,14 @@ body {
 /*SECTION QUOTE*/
 /*************************************/
 
-.section-quote {
+/* .section-quote {
   height: 35rem;
   background-image: linear-gradient(
       to right bottom,
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
     ),
-    url("/content/section-quote.jpeg");
+    url('/content/section-quote.jpeg');
   background-position: 10% 28%;
   background-size: cover;
 
@@ -261,7 +261,7 @@ body {
   letter-spacing: 0.5rem;
   text-transform: uppercase;
   color: #fff;
-}
+} */
 
 /*************************************/
 /*SECTION TESTIMONIALS */
@@ -276,7 +276,8 @@ body {
   justify-items: center;
   align-items: center;
 
-  margin-bottom: 4.8rem;
+  /* margin-bottom: 4.8rem; */
+  background-color: #f6f6f6;
 }
 
 .testimonial-text {
@@ -300,7 +301,7 @@ body {
 
 .section-featured {
   padding: 12.8rem;
-  background-color: #fffdf6;
+  /* background-color: #f6f6f6; */
 }
 
 .featured-title {
@@ -337,7 +338,7 @@ body {
 
 .featured-tag {
   display: block;
-  background-color: #eee;
+  background-color: #f6f6f6;
   padding: 0.1rem 1.6rem;
   border-radius: 5px;
 
@@ -369,6 +370,7 @@ body {
 
 .section-booking {
   padding: 12.8rem;
+  background-color: #f6f6f6;
 }
 
 .booking-title {
