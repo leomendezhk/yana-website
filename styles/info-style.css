@@ -8,6 +8,10 @@
   padding: 9.6rem 0;
 }
 
+.info-about .grid {
+  align-items: center;
+}
+
 .about-textbox {
   text-align: center;
   align-self: center;
@@ -18,7 +22,7 @@
 }
 
 .about-imgbox img {
-  height: 100%;
+  width: 90%;
 }
 
 .about-text {
