@@ -108,6 +108,10 @@ body {
   color: #eee;
 }
 
+.strong {
+  font-weight: 500;
+}
+
 /* HEADER */
 .header {
   height: 100vh;

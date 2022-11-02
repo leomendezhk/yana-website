@@ -20,3 +20,31 @@
 .about-text span {
   font-style: italic;
 }
+
+/* SECTION FAQ */
+
+.info-questions {
+  background-color: #f6f6f6;
+  padding: 9.6rem 0;
+}
+
+.info-questions .grid {
+  row-gap: 8rem;
+}
+
+.questions-title {
+  text-align: center;
+  margin-bottom: 6.8rem;
+}
+
+.question-title {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.question-answer {
+  font-size: 2rem;
+}
+
+/*  */
