@@ -8,8 +8,8 @@ GUIDELINE
 - Spacing system (px)
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
-
 */
+
 * {
   padding: 0;
   margin: 0;
@@ -32,32 +32,44 @@ body {
 /* Reusable component */
 
 .container {
-  max-width: 160rem;
+  max-width: 140rem;
   margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  font-style: italic;
+  text-transform: uppercase;
+  margin-bottom: 3.2rem;
+  line-height: 1.2;
 }
 
 .heading-primary {
   font-size: 5.2rem;
-  line-height: 1.05;
-  margin-bottom: 3.2rem;
-  text-transform: uppercase;
-  font-style: italic;
 }
 
 .heading-secondary {
   font-size: 4.2rem;
-  line-height: 1.2;
-  margin-bottom: 3.2rem;
-  text-transform: uppercase;
-  font-style: italic;
 }
 
 .heading-tertiary {
   font-size: 3rem;
-  line-height: 1.2;
-  margin-bottom: 3.2rem;
-  text-transform: uppercase;
-  font-style: italic;
 }
 
 .btn:link,
@@ -191,15 +203,11 @@ body {
 /*************************************/
 
 .section-intro {
-  padding: 12.8rem;
+  padding: 12.8rem 0;
 }
 
 .intro {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 9.6rem;
   align-items: center;
-  justify-items: end;
 }
 
 .intro-textbox {
@@ -216,7 +224,7 @@ body {
   color: #555;
   font-size: 2rem;
   letter-spacing: 0.08rem;
-  margin-bottom: 3.2rem;
+  margin-bottom: 4.2rem;
 }
 
 .intro-text span {
@@ -268,16 +276,13 @@ body {
 /*************************************/
 
 .section-testimonials {
-  height: 50rem;
-  padding: 9.6rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 9.6rem;
-  justify-items: center;
-  align-items: center;
-
-  /* margin-bottom: 4.8rem; */
   background-color: #f6f6f6;
+}
+
+.testimonials-container {
+  height: 50rem;
+  align-items: center;
+  justify-items: center;
 }
 
 .testimonial-text {
@@ -300,8 +305,7 @@ body {
 /*************************************/
 
 .section-featured {
-  padding: 12.8rem;
-  /* background-color: #f6f6f6; */
+  padding: 12.8rem 0;
 }
 
 .featured-title {
@@ -313,8 +317,6 @@ body {
 }
 
 .featured-gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
   row-gap: 6.2rem;
   margin-bottom: 9.6rem;
 }
@@ -380,8 +382,6 @@ body {
 }
 
 .booking-steps {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
   gap: 4.8rem;
   text-align: center;
   border-top: 1px solid #333;
@@ -422,12 +422,15 @@ body {
 
 .footer {
   background-color: #f6f6f6;
+  padding: 2.8rem 9.6rem;
+}
+
+.footer-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  padding: 2.8rem 9.6rem;
 }
+
 .footer-logo {
   height: 6rem;
 }
