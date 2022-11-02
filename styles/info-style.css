@@ -13,6 +13,14 @@
   align-self: center;
 }
 
+.about-title {
+  letter-spacing: 0.4rem;
+}
+
+.about-imgbox img {
+  height: 100%;
+}
+
 .about-text {
   font-size: 1.8rem;
 }
@@ -33,6 +41,10 @@
 }
 
 .questions-title {
+  letter-spacing: 0.4rem;
+}
+
+.questions-title {
   text-align: center;
   margin-bottom: 6.8rem;
 }
@@ -47,4 +59,40 @@
   font-size: 2rem;
 }
 
-/*  */
+/*  SECTION INVESTMENT*/
+
+.info-investment {
+  padding: 12.6rem 0;
+}
+
+.info-investment .grid {
+  max-height: 40rem;
+}
+
+.investment-title {
+  text-align: center;
+  margin-bottom: 12.2rem;
+  letter-spacing: 0.4rem;
+}
+
+.investment {
+  margin-bottom: 14rem;
+  align-items: center;
+}
+
+.investment-imgbox img {
+  height: 100%;
+  width: 100%;
+}
+
+.investment-text {
+  font-size: 2rem;
+  margin-bottom: 3.4rem;
+}
+
+.investment-list {
+  list-style: none;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
