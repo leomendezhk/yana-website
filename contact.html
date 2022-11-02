@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/styles/contact-style.css" />
+
+    <title>Contact | Yana Oiconomou Photography</title>
+  </head>
+  <body>
+    <header class="info-header">
+      <!-- LOGO -->
+      <div class="nav-container">
+        <a href="/index.html"
+          ><img
+            src="/content/nav-logo.png"
+            alt="yana oiconomou logo"
+            class="nav-logo"
+        /></a>
+  
+        <!-- NAVBAR -->
+        <nav class="main-nav">
+          <ul class="main-nav-list">
+            <li><a href="#" class="main-nav-link">Porfolio</a></li>
+            <li><a href="/info.html" class="main-nav-link">Info</a></li>
+            <li><a href="/contact.html" class="main-nav-link">Contact</a></li>
+          </ul>
+  
+          <ul class="social-links">
+            <li>
+              <a href="#" class="social-link"
+                ><ion-icon name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="social-link"
+                ><ion-icon name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="social-link"
+                ><ion-icon name="logo-pinterest"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+<main>
+  <section class="contact">
+    <div class="container grid grid--2-cols">
+      <div class="contact-imgbox">
+        <img src="/content/contact/contact-img.jpg" alt="Contact photo">
+        <p class="text-location">Based in Cyprus</p>
+        <p class="text-email">E: <a href="mailto:yanaoiconomou@gmail.com" class="email-link">yanaoiconomou@gmail.com</a></p>
+        <p class="text-tel">T: +55 55555 3333</p>
+      </div>
+      <div class="contact-textbox">
+        <h3 class="heading-tertiary contact-title">Contact</h3>
+        <p class="contact-greetings">Thank you for your interest! I'll do my best to reply within 48hrs! If it's easier for you, skip the form & email me directly at <a href="mailto:yanaoiconomou@gmail.com" class="link strong">yanaoiconomou@gmail.com</a>!</p>
+        <form action="#" class="contact-form">
+          <div class="grid grid--2-cols">
+            <div>
+              <label for="name">Full Name<span class="strong">*</span></label>
+              <input type="text" name="name" id="name" required>
+              <label for="email">Email<span class="strong">*</span></label>
+              <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+              <label for="partner-name">Your parner's name</label>
+              <input type="text" name="partner-name" id="partner-name">
+              <label for="tel">Telephone</label>
+              <input type="tel" name="tel" id="tel">
+            </div>
+          </div>
+          <div>
+            <label for="event-date">Event Date/s <span class="strong">*</span></label>
+            <input type="text" name="event-date" id="event-date" placeholder="Dates you have booked or are considering - please make sure to include the year">
+          </div>
+          <div>
+            <label for="event-location">Event Location<span class="strong">*</span></label>
+            <input type="text" name="event-location" id="event-location" placeholder="Venue name / Addres / State / Country">
+          </div>
+          <div>
+            <label for="planner">Are you working with a wedding planner?</label>
+            <input type="text" name="planner" id="planner" placeholder="If yes - please let me know their name / website">
+          </div>
+          <div>
+            <label for="guest">Guest count</label>
+            <input type="text" name="guest" id="guest" placeholder="It can help to determine the type of coverage you will be after">
+          </div>
+          <div>
+            <label for="discover">How did you discover my work?</label>
+            <input type="text" name="discover" id="discover" placeholder="Instagram / Website / Word of mouth / Magazine feature">
+          </div>
+          <div>
+            <label for="instagram">Instagram handle</label>
+            <input type="text" name="instagram" id="instagram" placeholder="By no means essential, it's just nice to put a face to the name.">
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="I'd love for you to tell me about what you are looking for, the vision or aesthetic/mood you have for your event and why you would like me to photograph it. Any other information is welcome as well."></textarea>
+          </div>
+          <button type="submit" class="btn btn--form">Send message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+
+
+    <!-- SECTION FOOTER -->
+<footer class="footer">
+  <div class="container footer-container">
+    <div>
+      <a href="/index.html"
+      ><img
+        src="/content/nav-logo.png"
+        alt="yana oiconomou logo"
+        class="footer-logo"
+    /></a>
+    </div>
+
+    <div>
+      <nav class="footer-nav">
+        <ul class="main-nav-list">
+          <li><a href="#" class="main-nav-link">Porfolio</a></li>
+          <li><a href="/info.html" class="main-nav-link">Info</a></li>
+          <li><a href="/contact.html" class="main-nav-link">Contact</a></li>
+        </ul>
+    </div>
+
+    <div><p class="footer-text">Yana Oiconomou Photography &copy; All right reseved. </p></div>
+  </div>
+</footer>
+<!-- ICONS -->
+<script
+type="module"
+src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+></script>
+<script
+nomodule
+src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+></script>
+  </body>
+</html>
