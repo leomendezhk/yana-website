@@ -121,6 +121,10 @@ body {
   font-weight: 500;
 }
 
+.normal-font {
+  font-style: normal;
+}
+
 /* HEADER */
 .header {
   height: 100vh;
