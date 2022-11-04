@@ -58,38 +58,38 @@
   font-size: 2rem;
 }
 
-/*  SECTION INVESTMENT*/
+/*  SECTION SESSION*/
 
-.info-investment {
+.info-session {
   padding: 12.6rem 0;
 }
 
-.info-investment .grid {
+.info-session .grid {
   max-height: 40rem;
 }
 
-.investment-title {
+.session-title {
   text-align: center;
   margin-bottom: 12.2rem;
   letter-spacing: 0.4rem;
 }
 
-.investment {
+.session {
   margin-bottom: 14rem;
   align-items: center;
 }
 
-.investment-imgbox img {
+.session-imgbox img {
   height: 100%;
   width: 100%;
 }
 
-.investment-text {
+.session-text {
   font-size: 2rem;
   margin-bottom: 3.4rem;
 }
 
-.investment-list {
+.session-list {
   list-style: none;
   margin-bottom: 2rem;
   font-size: 2rem;
