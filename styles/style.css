@@ -21,7 +21,7 @@ html {
 }
 
 body {
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
   font-size: 1.6rem;
   line-height: 1.6;
   color: #333;
@@ -30,6 +30,11 @@ body {
 }
 
 /* Reusable component */
+
+.small-header {
+  height: 10vh;
+  background-image: url(/content/header-img.jpg);
+}
 
 .container {
   max-width: 140rem;
@@ -74,6 +79,7 @@ body {
   font-size: 3rem;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
