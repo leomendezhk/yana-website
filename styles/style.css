@@ -32,8 +32,9 @@ body {
 /* Reusable component */
 
 .small-header {
-  height: 10vh;
+  height: 15vh;
   background-image: url(/content/header-img.jpg);
+  background-size: cover;
 }
 
 .container {
