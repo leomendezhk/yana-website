@@ -4,6 +4,7 @@
 
 .contact-imgbox img {
   margin-bottom: 8rem;
+  width: 90%;
 }
 
 .contact-imgbox {
@@ -11,6 +12,8 @@
   letter-spacing: 0.4rem;
   text-transform: uppercase;
   font-size: 1.2rem;
+  align-self: center;
+  justify-self: center;
 }
 
 .text-location {
@@ -41,6 +44,30 @@
   text-transform: uppercase;
 }
 
+.contact-form .grid {
+  gap: 2rem;
+}
+
 .contact-form label {
   display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 0.3rem;
+}
+.contact-form input {
+  height: 3.8rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.contact-form textarea {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.btn--form {
+  border: none;
+  cursor: pointer;
+  padding: 1.6rem 3rem;
 }
