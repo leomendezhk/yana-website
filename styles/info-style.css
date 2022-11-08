@@ -31,6 +31,7 @@
 /* SECTION FAQ */
 
 .info-questions {
+  display: none; /*temporary*/
   background-color: #f6f6f6;
   padding: 9.6rem 0;
 }
