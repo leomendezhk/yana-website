@@ -2,18 +2,19 @@
   padding: 12.8rem 0;
 }
 
-.contact-imgbox img {
-  margin-bottom: 8rem;
-  width: 90%;
-}
-
 .contact-imgbox {
   font-size: 1.6rem;
   letter-spacing: 0.4rem;
   text-transform: uppercase;
   font-size: 1.2rem;
-  align-self: center;
-  justify-self: center;
+  /* align-self: center; */
+  /* justify-self: center;   */
+}
+
+.contact-imgbox img {
+  margin-bottom: 1rem;
+  width: 70%;
+  margin-left: 10rem;
 }
 
 .text-location {
@@ -37,7 +38,13 @@
   margin-bottom: 4.2rem;
 }
 
+.contact-greetings span {
+  font-size: 2.2rem;
+}
+
 .contact-form {
+  display: none;
+
   color: #6f6f6f;
   font-size: 1.4rem;
   letter-spacing: 0.4rem;
