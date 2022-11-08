@@ -36,7 +36,7 @@ body {
   background-image: url(/content/header-img.jpg);
   background-size: cover;
 
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Lora", serif;
   font-size: 2rem;
 }
 
@@ -137,7 +137,7 @@ body {
   position: relative;
   font-size: 2rem;
 
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Lora", serif;
 }
 
 .nav-container {
