@@ -73,6 +73,162 @@
   }
 
   /* MOBILE NAVIGATION */
+  .btn-mobile-nav {
+    display: block;
+    font-size: 5rem;
+    position: absolute;
+    top: 4rem;
+    right: 4rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .header {
+    position: relative;
+  }
+
+  .main-nav {
+    /* CREATE LAYER */
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    /* CENTER CONTENT */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 0.5s ease-in;
+
+    /* move to right */
+    transform: translateX(100%);
+
+    /* 1 HIDE ELEMENT VISUALLY */
+    /* disaply:none allows no transition */
+    opacity: 0;
+    /* 2 MAKE IT UNNACESIBLE TO MOUSE AND KEYBOARD */
+    pointer-events: none;
+    /* 3 HIDE IT FROM SCREEEN READER */
+    visibility: hidden;
+  }
+
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  .nav-open .icon-mobile-nav[name='close-outline'] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name='menu-outline'] {
+    display: none;
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+  }
+}
+
+/* *********************** */
+/* BELOW 818px (small tablet) */
+/* *********************** */
+@media (max-width: 51em) {
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .booking-steps div:nth-child(2) {
+    border-right: none;
+  }
+
+  .booking-steps div:nth-child(3) {
+    grid-column: span 2;
+    padding: 0 10rem;
+  }
+
+  .booking-steps div:nth-child(3) h3 {
+    margin-left: 3rem;
+  }
+
+  .footer {
+    padding: 4rem;
+  }
+
+  .footer-container {
+    flex-wrap: wrap;
+    row-gap: 3rem;
+  }
+
+  .footer {
+    padding: 4rem;
+  }
+
+  .footer-container {
+    flex-wrap: wrap;
+    row-gap: 3rem;
+  }
+
+  .footer-container div:last-child {
+    flex: 100%;
+    text-align: center;
+  }
+}
+
+/* *********************** */
+/* BELOW 544px (phones) */
+/* *********************** */
+@media (max-width: 34em) {
+  .grid--2-cols,
+  .grid--3-cols,
+  .grid--4-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .heading-secondary {
+    margin-bottom: 6.8rem;
+  }
+
+  .intro-img {
+    text-align: center;
+  }
+
+  .testimonials-container {
+    row-gap: 0;
+  }
+
+  .booking-text {
+    font-size: 2rem;
+  }
+
+  .booking-steps,
+  .booking-steps div:nth-child(2) {
+    border: none;
+  }
+
+  .booking-steps div:nth-child(3) {
+    grid-column: 1;
+    padding: 0;
+  }
+
+  .booking-steps div:nth-child(3) h3 {
+    margin-left: 0;
+  }
+
+  .booking-step {
+    padding: 1rem;
+  }
+
+  .footer-container div {
+    flex: 100%;
+    text-align: center;
+  }
 }
 
 /*
