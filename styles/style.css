@@ -17,7 +17,9 @@ GUIDELINE
 }
 
 html {
+  /* default 10px, want 16px. 10 / 16 = 0.625 = 62.5% */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -27,6 +29,7 @@ body {
   color: #333;
   background-color: #fff;
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 /* Reusable component */
@@ -46,7 +49,8 @@ body {
 
 .grid {
   display: grid;
-  gap: 9.6rem;
+  column-gap: 9.6rem;
+  row-gap: 9.6rem;
 }
 
 .grid--2-cols {
