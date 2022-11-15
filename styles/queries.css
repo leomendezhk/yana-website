@@ -24,6 +24,17 @@
   .section-portfolio {
     padding: 9.6rem 4rem;
   }
+
+  /* INFO */
+  .info-about,
+  .info-session {
+    padding: 9.6rem 2rem;
+  }
+
+  .info-about .grid,
+  .info-session .grid {
+    column-gap: 4.2rem;
+  }
 }
 
 /* *********************** */
@@ -193,8 +204,48 @@
   }
 
   /* PORTFOLIO PAGE */
-  .section-portfolio .grid--2-cols {
+  .section-portfolio .grid--2-cols,
+  .session {
     grid-template-columns: 1fr;
+    row-gap: 2rem;
+  }
+
+  /* INFO PAGE */
+  .info-about .grid--2-cols {
+    grid-template-columns: 1fr;
+  }
+
+  .info-about {
+    padding: 12.4rem 9.6rem;
+  }
+
+  .info-about .grid {
+    justify-items: center;
+    row-gap: 4.2rem;
+  }
+
+  .about-imgbox {
+    text-align: center;
+  }
+
+  /* Session */
+
+  .session {
+    text-align: center;
+    margin-bottom: 20rem;
+  }
+
+  .session-imgbox img {
+    height: 80%;
+    width: 80%;
+  }
+
+  .session:nth-child(2) div:nth-child(2) {
+    grid-row: 1;
+  }
+
+  .session:nth-child(4) div:nth-child(2) {
+    grid-row: 1;
   }
 }
 
@@ -244,6 +295,11 @@
 
   .footer-container div {
     flex: 100%;
+    text-align: center;
+  }
+
+  /* CONTACT */
+  .contact-textbox {
     text-align: center;
   }
 }
