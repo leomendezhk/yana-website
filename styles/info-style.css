@@ -28,8 +28,7 @@
   font-style: italic;
 }
 
-/* SECTION FAQ */
-
+/* SECTION FAQ  */
 .info-questions {
   display: none; /*temporary*/
   background-color: #f6f6f6;
@@ -64,10 +63,6 @@
 
 .info-session {
   padding: 12.6rem 0;
-}
-
-.info-session .grid {
-  max-height: 40rem;
 }
 
 .session-title {
