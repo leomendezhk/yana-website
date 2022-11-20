@@ -180,6 +180,14 @@
     grid-template-columns: 1fr;
   }
 
+  .grid {
+    gap: 3.2rem;
+  }
+
+  .nav-logo {
+    width: 20rem;
+  }
+
   .heading-secondary {
     margin-bottom: 6.8rem;
   }
@@ -214,9 +222,23 @@
     padding: 1rem;
   }
 
-  .footer-container div {
-    flex: 100%;
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-imgbox {
     text-align: center;
+  }
+
+  .info-about,
+  .info-session {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .contact-img {
+    width: 45rem;
   }
 }
 

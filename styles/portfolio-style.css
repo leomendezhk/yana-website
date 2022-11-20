@@ -3,17 +3,18 @@
 }
 
 .section-portfolio .grid {
-  align-items: center;
   justify-items: center;
-  text-align: center;
+  align-items: center;
+  gap: 4.2rem;
 }
 
 .portfolio-img {
-  height: 30rem;
-  width: 50rem;
+  height: 40rem;
+  width: 60rem;
   margin-bottom: 0.5rem;
 }
 
 .portfolio-name {
   font-size: 2rem;
+  text-align: center;
 }

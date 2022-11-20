@@ -24,6 +24,7 @@ html {
 
 body {
   font-family: 'EB Garamond', serif;
+
   font-size: 1.6rem;
   line-height: 1.6;
   color: #333;
@@ -33,14 +34,6 @@ body {
 }
 
 /* Reusable component */
-
-.small-header {
-  height: 15vh;
-  background-image: url(/content/header-img.jpg);
-  background-size: cover;
-
-  font-family: 'Lora', serif;
-}
 
 .container {
   max-width: 140rem;
@@ -66,8 +59,9 @@ body {
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
+  font-family: 'Bodoni Moda', serif;
   font-style: italic;
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin-bottom: 3.2rem;
   line-height: 1.2;
   font-weight: 400;
@@ -131,12 +125,16 @@ body {
   font-style: normal;
 }
 
+.small-header {
+  height: 30vh;
+
+  background-image: url(/content/header-img.jpg);
+  background-size: cover;
+}
+
 /* *********************** */
 /* MOBILE */
 /* *********************** */
-.header {
-  position: relative;
-}
 
 .btn-mobile-nav {
   border: none;
@@ -167,9 +165,9 @@ body {
   background-size: cover;
   background-position: center center;
   position: relative;
-  font-size: 2rem;
 
-  font-family: 'Lora', serif;
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 400;
 }
 
 .nav-container {
@@ -201,13 +199,10 @@ body {
 .main-nav-link:link,
 .main-nav-link:visited {
   display: inline-block;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
   text-decoration: none;
   color: inherit;
-  text-transform: uppercase;
-  /* font-size: 1.8rem; */
-  letter-spacing: 0.2rem;
-  font-weight: 400;
-  /* font-style: italic; */
 
   transition: all 0.4s;
 }
@@ -217,34 +212,11 @@ body {
   color: #eee;
 }
 
-/* .social-links {
-  display: flex;
-  list-style: none;
-  gap: 2rem;
-  justify-content: flex-end;
-  padding-top: 1rem;
-}
-
-.social-link:link,
-.social-link:visited {
-  text-decoration: none;
-  color: inherit;
-  font-size: 2.4rem;
-
-  transition: all 0.3s;
-}
-
-.social-link:hover,
-.social-link:active {
-  color: #eee;
-} */
-
 .header-text {
-  font-size: 97%;
+  font-size: 2.8rem;
   font-weight: 400;
   font-style: italic;
-  /* text-transform: uppercase; */
-  letter-spacing: 0.5rem;
+  letter-spacing: 0.2rem;
   color: #fff;
 
   position: absolute;
@@ -462,7 +434,6 @@ body {
 .footer-nav {
   font-size: 1.6rem;
   justify-content: center;
-  margin-left: 8rem;
 }
 
 .footer-nav-list {

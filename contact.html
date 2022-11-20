@@ -9,11 +9,12 @@
     <link rel="stylesheet" href="/styles/contact-style.css" />
     <link rel="stylesheet" href="/styles/queries.css">
 
+    <script src="/js/script.js"></script>
 
     <title>Contact | Yana Oiconomou Photography</title>
   </head>
   <body>
-    <header class="small-header nav-open">
+    <header class="small-header">
       <!-- LOGO -->
       <div class="nav-container">
         <a href="/index.html"
@@ -41,62 +42,17 @@
 
 <main>
   <section class="contact">
-    <div class="container grid grid--2-cols">
-      <div class="contact-imgbox">
-        <img src="/content/contact/contact-img.jpg" alt="Contact photo">
-        <!-- <p class="text-location">Based in Cyprus</p> -->
-        <!-- <p class="text-email">E: <a href="mailto:yanaoiconomou@gmail.com" class="email-link">yanaoiconomou@gmail.com</a></p> -->
-        <!-- <p class="text-tel">T: +55 55555 3333</p> -->
-      </div>
+    <div class="container">
       <div class="contact-textbox">
-        <h3 class="heading-tertiary contact-title">Contact</h3>
-        <p class="contact-greetings"><span class="strong">Thank you for your interest!</span><br> To get in touch write me at: <a href="mailto:yanaoiconomou@gmail.com" class="email-link">yanaoiconomou@gmail.com</a></p>
-        <form action="#" class="contact-form">
-          <div class="grid grid--2-cols">
-            <div>
-              <label for="name">Full Name<span class="strong">*</span></label>
-              <input type="text" name="name" id="name" required>
-              <label for="email">Email<span class="strong">*</span></label>
-              <input type="email" name="email" id="email" required>
-            </div>
-            <div>
-              <label for="partner-name">Your parner's name</label>
-              <input type="text" name="partner-name" id="partner-name">
-              <label for="tel">Telephone</label>
-              <input type="tel" name="tel" id="tel">
-            </div>
-          </div>
-          <div>
-            <label for="event-date">Event Date/s<span class="strong">*</span></label>
-            <input type="text" name="event-date" id="event-date" placeholder="Dates you have booked or are considering - please make sure to include the year">
-          </div>
-          <div>
-            <label for="event-location">Event Location<span class="strong">*</span></label>
-            <input type="text" name="event-location" id="event-location" placeholder="Venue name / Addres / State / Country">
-          </div>
-          <div>
-            <label for="planner">Are you working with a wedding planner?</label>
-            <input type="text" name="planner" id="planner" placeholder="If yes - please let me know their name / website">
-          </div>
-          <div>
-            <label for="guest">Guest Count</label>
-            <input type="text" name="guest" id="guest" placeholder="It can help to determine the type of coverage you will be after">
-          </div>
-          <div>
-            <label for="discover">How did you discover my work?</label>
-            <input type="text" name="discover" id="discover" placeholder="Instagram / Website / Word of mouth / Magazine feature">
-          </div>
-          <div>
-            <label for="instagram">Instagram handle</label>
-            <input type="text" name="instagram" id="instagram" placeholder="By no means essential, it's just nice to put a face to the name.">
-          </div>
-          <div>
-            <label for="message">Message</label>
-            <textarea name="message" id="message" cols="30" rows="10" placeholder="I'd love for you to tell me about what you are looking for, the vision or aesthetic/mood you have for your photography. Any other information is welcome as well."></textarea>
-          </div>
-          <button type="submit" class="btn btn--form">Send message</button>
-        </form>
+        <p class="contact-greetings">Thank you for your interest in my work!<br>
+          I aim to reply to all the emails within 48 hours. However, if you haven't heard back from me, check your spam inbox.</p>
+        <h3 class="heading-secondary contact-title">Contact</h3>
+        <div class="contact-text">
+          <p>Email: <a href="mailto:yanaoiconomou@gmail.com" class="contact-link">yanaoiconomou@gmail.com</a><br> Instagram: <a href="https://www.instagram.com/yana.oiconomou/" class="contact-link">@yanaoiconomou</a></p>
+
+        </div>
       </div>
+      <img src="/content/contact/contact-img.jpg" alt="Contact photo" class="contact-img">
     </div>
   </section>
 </main>
@@ -150,3 +106,49 @@ src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
  ></script>
 </html>
+
+<!-- <form action="#" class="contact-form">
+          <div class="grid grid--2-cols">
+            <div>
+              <label for="name">Full Name<span class="strong">*</span></label>
+              <input type="text" name="name" id="name" required>
+              <label for="email">Email<span class="strong">*</span></label>
+              <input type="email" name="email" id="email" required>
+            </div>
+            <div>
+              <label for="partner-name">Your parner's name</label>
+              <input type="text" name="partner-name" id="partner-name">
+              <label for="tel">Telephone</label>
+              <input type="tel" name="tel" id="tel">
+            </div>
+          </div>
+          <div>
+            <label for="event-date">Event Date/s<span class="strong">*</span></label>
+            <input type="text" name="event-date" id="event-date" placeholder="Dates you have booked or are considering - please make sure to include the year">
+          </div>
+          <div>
+            <label for="event-location">Event Location<span class="strong">*</span></label>
+            <input type="text" name="event-location" id="event-location" placeholder="Venue name / Addres / State / Country">
+          </div>
+          <div>
+            <label for="planner">Are you working with a wedding planner?</label>
+            <input type="text" name="planner" id="planner" placeholder="If yes - please let me know their name / website">
+          </div>
+          <div>
+            <label for="guest">Guest Count</label>
+            <input type="text" name="guest" id="guest" placeholder="It can help to determine the type of coverage you will be after">
+          </div>
+          <div>
+            <label for="discover">How did you discover my work?</label>
+            <input type="text" name="discover" id="discover" placeholder="Instagram / Website / Word of mouth / Magazine feature">
+          </div>
+          <div>
+            <label for="instagram">Instagram handle</label>
+            <input type="text" name="instagram" id="instagram" placeholder="By no means essential, it's just nice to put a face to the name.">
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="I'd love for you to tell me about what you are looking for, the vision or aesthetic/mood you have for your photography. Any other information is welcome as well."></textarea>
+          </div>
+          <button type="submit" class="btn btn--form">Send message</button>
+        </form> -->
