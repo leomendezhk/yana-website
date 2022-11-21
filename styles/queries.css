@@ -195,6 +195,10 @@
     width: 20rem;
   }
 
+  .nav-container {
+    padding: 6.8rem 2rem;
+  }
+
   .heading-secondary {
     margin-bottom: 6.8rem;
   }
@@ -264,11 +268,24 @@
     width: 45rem;
   }
 
+  .contact-greetings {
+    font-size: 1.4rem;
+    padding: 0 2rem;
+  }
+
   .session:nth-child(2) .session-imgbox {
     grid-row: 1;
   }
   .session:nth-child(4) .session-imgbox {
     grid-row: 1;
+  }
+
+  .portfolio-card {
+    margin-bottom: 5.2rem;
+  }
+
+  .portfolio-card:last-child {
+    margin-bottom: 0;
   }
 }
 
