@@ -213,6 +213,7 @@ body {
   font-style: italic;
   letter-spacing: 0.2rem;
   color: #fff;
+  white-space: nowrap;
 
   position: absolute;
   bottom: 10%;
