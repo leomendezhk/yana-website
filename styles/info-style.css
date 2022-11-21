@@ -1,6 +1,6 @@
 /* SECTION INFO */
 .info-about {
-  padding: 9.6rem 0;
+  padding: 9.6rem 2rem;
 }
 
 .info-about .grid {
@@ -29,8 +29,7 @@
 }
 
 /* SECTION FAQ  */
-.info-questions {
-  display: none; /*temporary*/
+/* .info-questions {
   background-color: #f6f6f6;
   padding: 9.6rem 0;
 }
@@ -57,12 +56,12 @@
 
 .question-answer {
   font-size: 2rem;
-}
+} */
 
 /*  SECTION SESSION*/
 
 .info-session {
-  padding: 12.6rem 0;
+  padding: 12.6rem 2rem;
   background-color: #f6f6f6;
 }
 

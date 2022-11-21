@@ -33,7 +33,9 @@ body {
   overflow-x: hidden;
 }
 
-/* Reusable component */
+/* *********************** */
+/* REUSABLE COMPONENTS */
+/* *********************** */
 
 .container {
   max-width: 140rem;
@@ -125,15 +127,8 @@ body {
   font-style: normal;
 }
 
-.small-header {
-  height: 30vh;
-
-  background-image: url(/content/header-img.jpg);
-  background-size: cover;
-}
-
 /* *********************** */
-/* MOBILE */
+/* MOBILE  MENU*/
 /* *********************** */
 
 .btn-mobile-nav {
@@ -225,6 +220,13 @@ body {
   transform: translate(-50%, -50%);
 }
 
+.small-header {
+  height: 30vh;
+
+  background-image: url(/content/header-img.jpg);
+  /* background-size: cover; */
+  position: relative;
+}
 /*************************************/
 /*SECTION INTRO*/
 /*************************************/
