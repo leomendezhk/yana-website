@@ -1,5 +1,9 @@
+body {
+  /* overflow: hidden; */
+}
+
 .section-portfolio {
-  padding: 12.2rem;
+  padding: 12.2rem 2rem;
 }
 
 .section-portfolio .grid {
@@ -9,12 +13,13 @@
 }
 
 .portfolio-img {
-  height: 40rem;
-  width: 60rem;
+  height: 100%;
+  width: 100%;
   margin-bottom: 0.5rem;
 }
 
 .portfolio-name {
   font-size: 2rem;
   text-align: center;
+  font-size: 2.8rem;
 }

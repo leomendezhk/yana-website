@@ -112,10 +112,10 @@
     transform: translateX(0);
   }
 
-  .nav-open .icon-mobile-nav[name='close-outline'] {
+  .nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;
   }
-  .nav-open .icon-mobile-nav[name='menu-outline'] {
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
 
@@ -167,6 +167,13 @@
   .footer-container div:last-child {
     flex: 100%;
     text-align: center;
+  }
+
+  /* INFO PAGE */
+
+  .info-session {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 }
 
@@ -239,6 +246,13 @@
 
   .contact-img {
     width: 45rem;
+  }
+
+  .session:nth-child(2) .session-imgbox {
+    grid-row: 1;
+  }
+  .session:nth-child(4) .session-imgbox {
+    grid-row: 1;
   }
 }
 
