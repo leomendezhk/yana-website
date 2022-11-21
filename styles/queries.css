@@ -200,7 +200,7 @@
   }
 
   .header-text {
-    font-size: 55%;
+    white-space: nowrap;
   }
 
   .intro-img {
