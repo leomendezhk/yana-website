@@ -199,6 +199,10 @@
     margin-bottom: 6.8rem;
   }
 
+  .header-text {
+    font-size: 65%;
+  }
+
   .intro-img {
     text-align: center;
   }
