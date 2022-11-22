@@ -287,6 +287,10 @@
   .portfolio-card:last-child {
     margin-bottom: 0;
   }
+
+  .section-album {
+    padding: 9.6rem 2rem;
+  }
 }
 
 /*

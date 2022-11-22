@@ -19,3 +19,54 @@
   text-align: center;
   font-size: 2.8rem;
 }
+
+/*************************************/
+/* ALBUM */
+/*************************************/
+
+.section-album {
+  padding: 12.8rem 9.6rem;
+}
+
+.album-title {
+  text-align: center;
+  margin-bottom: 9.6rem;
+  font-size: 6.8rem;
+}
+
+.section-album .grid {
+  row-gap: 3.8rem;
+  column-gap: 3.8rem;
+  margin-bottom: 9.6rem;
+}
+
+.album-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 4rem;
+}
+
+.album-img {
+  width: 100%;
+  height: 100%;
+}
+
+.album-tag {
+  background-color: #f6f6f6;
+  padding: 0.1rem 1.6rem;
+  border-radius: 5px;
+
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}
+
+.album-name {
+  font-size: 2.2rem;
+  letter-spacing: 0.1rem;
+  font-style: italic;
+  font-weight: 400;
+  color: #555;
+}
