@@ -341,7 +341,7 @@ body {
 }
 
 .featured-tag {
-  /* display: block; */
+  display: block;
   background-color: #f6f6f6;
   padding: 0.1rem 1.6rem;
   border-radius: 5px;
@@ -357,6 +357,7 @@ body {
   font-size: 1.8rem;
   font-weight: 500;
   color: #555;
+  margin-top: -1.5rem;
   /* font-style: italic; */
 }
 
