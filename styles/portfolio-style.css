@@ -30,9 +30,8 @@
 }
 
 .album-title {
-  text-align: center;
   font-size: 6.8rem;
-  margin-bottom: 9.6rem;
+  margin-bottom: 12.8rem;
 }
 
 .section-album .grid {
@@ -64,12 +63,17 @@
   font-size: 1.2rem;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
+
+  transition: all 0.3s;
 }
 
-.album-name {
+.album-tag:hover {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.album-name .link {
   font-size: 2.2rem;
   letter-spacing: 0.1rem;
   font-style: italic;
-  font-weight: 400;
-  color: #555;
 }
