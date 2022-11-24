@@ -154,6 +154,7 @@ body {
 }
 
 /* HEADER */
+.small-header,
 .header {
   height: 100vh;
   background-image: url(/content/header-img.jpg);
@@ -163,6 +164,11 @@ body {
 
   font-family: "Bodoni Moda", serif;
   font-weight: 400;
+}
+
+.small-header {
+  height: 30vh;
+  background-position: 0% 0%;
 }
 
 .nav-container {
@@ -221,13 +227,6 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.small-header {
-  height: 30vh;
-
-  background-image: url(/content/header-img.jpg);
-  background-size: cover;
-  position: relative;
-}
 /*************************************/
 /*SECTION INTRO*/
 /*************************************/
