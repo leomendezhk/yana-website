@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
 
   font-size: 1.6rem;
   line-height: 1.6;
@@ -61,7 +61,7 @@ body {
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
-  font-family: 'Bodoni Moda', serif;
+  font-family: "Bodoni Moda", serif;
   font-style: italic;
   text-transform: capitalize;
   margin-bottom: 3.2rem;
@@ -149,7 +149,7 @@ body {
   color: #333;
 }
 
-.icon-mobile-nav[name='close-outline'] {
+.icon-mobile-nav[name="close-outline"] {
   display: none;
 }
 
@@ -161,7 +161,7 @@ body {
   background-position: center center;
   position: relative;
 
-  font-family: 'Bodoni Moda', serif;
+  font-family: "Bodoni Moda", serif;
   font-weight: 400;
 }
 
@@ -304,7 +304,7 @@ body {
 /*************************************/
 
 .section-featured {
-  padding: 12.8rem 0;
+  padding: 12.8rem 2rem;
 }
 
 .featured-title {
@@ -316,6 +316,7 @@ body {
 }
 
 .featured-gallery {
+  display: inline-grid;
   row-gap: 6.2rem;
   margin-bottom: 9.6rem;
 }
@@ -324,11 +325,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 2rem;
 }
 
 .featured-img {
-  width: 30rem;
-  height: 30rem;
+  width: 100%;
+  height: 100%;
+
   transition: all 0.4s;
   margin-bottom: 2rem;
 }
@@ -338,7 +341,7 @@ body {
 }
 
 .featured-tag {
-  display: block;
+  /* display: block; */
   background-color: #f6f6f6;
   padding: 0.1rem 1.6rem;
   border-radius: 5px;

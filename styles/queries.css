@@ -62,7 +62,7 @@
   }
 
   .section-featured {
-    padding: 9.6rem 0;
+    padding: 9.6rem 2rem;
   }
 }
 
@@ -116,10 +116,10 @@
     transform: translateX(0);
   }
 
-  .nav-open .icon-mobile-nav[name='close-outline'] {
+  .nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;
   }
-  .nav-open .icon-mobile-nav[name='menu-outline'] {
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
 
