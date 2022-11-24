@@ -53,10 +53,6 @@
     padding: 6.8rem 10rem;
   }
 
-  .header-text {
-    font-size: 75%;
-  }
-
   .section-booking {
     padding: 8rem 2rem;
   }
@@ -74,6 +70,10 @@
   html {
     /* 8px */
     font-size: 50%;
+  }
+
+  .header-text {
+    font-size: 3.6rem;
   }
 
   /* MOBILE NAVIGATION */
@@ -193,6 +193,10 @@
 
   .grid {
     gap: 3.2rem;
+  }
+
+  .header-text {
+    font-size: 90%;
   }
 
   .nav-logo {
