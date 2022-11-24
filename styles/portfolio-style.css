@@ -2,6 +2,12 @@
   padding: 12.2rem 2rem;
 }
 
+.portfolio-title {
+  text-align: center;
+  font-size: 5.8rem;
+  margin-bottom: 12.8rem;
+}
+
 .section-portfolio .grid {
   justify-items: center;
   align-items: center;
