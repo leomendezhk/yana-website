@@ -71,10 +71,12 @@ body {
 }
 
 .heading-primary {
+  font-style: normal;
   font-size: 5.2rem;
 }
 
 .heading-secondary {
+  font-style: normal;
   font-size: 4.2rem;
 }
 
@@ -167,8 +169,8 @@ body {
 }
 
 .small-header {
-  height: 30vh;
-  background-position: 0% 0%;
+  height: 15rem;
+  background-image: url(/content/small-header.jpg);
 }
 
 .nav-container {
@@ -244,7 +246,6 @@ body {
 }
 
 .intro-title {
-  font-style: italic;
   font-weight: 400;
   letter-spacing: 0.3rem;
 }
@@ -308,7 +309,6 @@ body {
 
 .featured-title {
   text-align: center;
-  font-style: italic;
   margin-bottom: 9.6rem;
   letter-spacing: 0.4rem;
   font-weight: 400;

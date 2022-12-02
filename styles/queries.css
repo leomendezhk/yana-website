@@ -285,7 +285,7 @@
   }
 
   .contact-greetings {
-    font-size: 1.4rem;
+    font-size: 1.8rem;
     padding: 0 2rem;
   }
 
@@ -302,6 +302,22 @@
 
   .portfolio-card:last-child {
     margin-bottom: 0;
+  }
+
+  /* SMALL HEADER */
+
+  .albums-header.small-header {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+  }
+
+  .albums-header.small-header {
+    background-image: url(/content/portfolio/love-stories/love-storie-3.jpg);
+  }
+
+  .section-album .grid {
+    row-gap: 12.6rem;
   }
 }
 

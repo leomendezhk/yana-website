@@ -7,13 +7,14 @@
   align-items: center;
 }
 
+.about-title {
+  text-align: center;
+  margin-bottom: 6.8rem;
+}
+
 .about-textbox {
   text-align: center;
   align-self: center;
-}
-
-.about-title {
-  letter-spacing: 0.4rem;
 }
 
 .about-imgbox img {
@@ -68,7 +69,6 @@
 .session-title {
   text-align: center;
   margin-bottom: 12.2rem;
-  letter-spacing: 0.4rem;
 }
 
 .session {
