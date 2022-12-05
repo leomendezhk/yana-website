@@ -6,20 +6,21 @@
   position: relative;
   display: block;
   margin: 0 auto;
-  padding: 9.6rem;
+  padding: 9.6rem 9.6rem 9.6rem 2rem;
   height: 70rem;
-  width: 50rem;
+  width: 45rem;
+  /* background-color:; */
 }
 
 .contact-background::before {
-  content: "";
+  content: '';
   background-image: url(/content/contact/contact-background.jpg);
-  background-position: center center;
+  background-position: 27% 50%;
   position: absolute;
   top: 0px;
   right: 0px;
   bottom: 0px;
-  left: 60px;
+  left: 0px;
   opacity: 0.6;
   z-index: -2;
 }
