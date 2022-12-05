@@ -23,6 +23,10 @@
   .section-album {
     padding: 9.6rem 2rem;
   }
+
+  .header-text {
+    font-size: 150%;
+  }
 }
 
 /* *********************** */
@@ -72,10 +76,6 @@
     font-size: 50%;
   }
 
-  .header-text {
-    font-size: 3.6rem;
-  }
-
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
@@ -117,10 +117,10 @@
     transform: translateX(0);
   }
 
-  .nav-open .icon-mobile-nav[name="close-outline"] {
+  .nav-open .icon-mobile-nav[name='close-outline'] {
     display: block;
   }
-  .nav-open .icon-mobile-nav[name="menu-outline"] {
+  .nav-open .icon-mobile-nav[name='menu-outline'] {
     display: none;
   }
 
@@ -197,7 +197,7 @@
   }
 
   .header-text {
-    font-size: 60%;
+    font-size: 100%;
   }
 
   .nav-logo {

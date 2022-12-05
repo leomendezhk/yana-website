@@ -1,3 +1,19 @@
+.small-header {
+  height: 30vh;
+  position: relative;
+}
+
+.about-title {
+  text-align: center;
+  margin-bottom: 12.8rem;
+
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* color: #fff; */
+}
+
 /* SECTION INFO */
 .info-about {
   padding: 9.6rem 2rem;
@@ -7,10 +23,10 @@
   align-items: center;
 }
 
-.about-title {
+/* .about-title {
   text-align: center;
   margin-bottom: 6.8rem;
-}
+} */
 
 .about-textbox {
   text-align: center;

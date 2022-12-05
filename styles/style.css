@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  font-family: "EB Garamond", serif;
+  font-family: 'EB Garamond', serif;
 
   font-size: 1.6rem;
   line-height: 1.6;
@@ -61,7 +61,7 @@ body {
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
-  font-family: "Bodoni Moda", serif;
+  font-family: 'Bodoni Moda', serif;
   font-style: italic;
   text-transform: capitalize;
   margin-bottom: 3.2rem;
@@ -151,7 +151,7 @@ body {
   color: #333;
 }
 
-.icon-mobile-nav[name="close-outline"] {
+.icon-mobile-nav[name='close-outline'] {
   display: none;
 }
 
@@ -164,7 +164,7 @@ body {
   background-position: center center;
   position: relative;
 
-  font-family: "Bodoni Moda", serif;
+  font-family: 'Bodoni Moda', serif;
   font-weight: 400;
 }
 
@@ -222,9 +222,10 @@ body {
   letter-spacing: 0.5rem;
   color: #fff;
   white-space: nowrap;
+  text-align: center;
 
   position: absolute;
-  bottom: 10%;
+  bottom: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
