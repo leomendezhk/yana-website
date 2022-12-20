@@ -23,7 +23,7 @@ html {
 }
 
 body {
-  font-family: 'EB Garamond', serif;
+  font-family: "EB Garamond", serif;
 
   font-size: 1.6rem;
   line-height: 1.6;
@@ -61,7 +61,7 @@ body {
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
-  font-family: 'Bodoni Moda', serif;
+  font-family: "Bodoni Moda", serif;
   font-style: italic;
   text-transform: capitalize;
   margin-bottom: 3.2rem;
@@ -151,7 +151,7 @@ body {
   color: #333;
 }
 
-.icon-mobile-nav[name='close-outline'] {
+.icon-mobile-nav[name="close-outline"] {
   display: none;
 }
 
@@ -164,13 +164,24 @@ body {
   background-position: center center;
   position: relative;
 
-  font-family: 'Bodoni Moda', serif;
+  font-family: "Bodoni Moda", serif;
   font-weight: 400;
 }
 
 .small-header {
-  height: 15rem;
+  height: 30rem;
   background-image: url(/content/small-header.jpg);
+}
+
+.header-title {
+  text-align: center;
+  /* margin-bottom: 12.8rem; */
+
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* color: #fff; */
 }
 
 .nav-container {

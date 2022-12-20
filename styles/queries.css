@@ -117,10 +117,10 @@
     transform: translateX(0);
   }
 
-  .nav-open .icon-mobile-nav[name='close-outline'] {
+  .nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;
   }
-  .nav-open .icon-mobile-nav[name='menu-outline'] {
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
 
@@ -303,6 +303,11 @@
 
   .portfolio-card:last-child {
     margin-bottom: 0;
+  }
+
+  .session-textbox .btn {
+    padding: 2rem 1rem;
+    font-size: 1.2rem;
   }
 
   /* SMALL HEADER */
